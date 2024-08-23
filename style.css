@@ -120,8 +120,6 @@ section {
 .custom-navbar {
 	background-color: #ffffff!important;
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,.09);
-	height: 70px;
-	max-height: 70px;
 }
 
 .navbar-toggler {
@@ -143,10 +141,12 @@ section {
 }
 
 .nav-custom-link {
-	font-size: 12px;
-	font-weight: 400;
-	letter-spacing: .05em;
-	margin-top: 5px;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: .1em;
+	margin-top: 25px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .navbar a {
@@ -202,7 +202,7 @@ section {
 }
 
 .btn-demo-small {
-	font-size: 12px;
+	font-size: 18px;
 	background-color: #6772e5;
 	padding: 1px 4px;
 }
@@ -256,6 +256,10 @@ section {
     color: #0095f7;
     text-transform: uppercase;
     letter-spacing: .05em;
+}
+
+#hero-image {
+	margin-top: 100px;
 }
 
 /* ==============================================
@@ -519,6 +523,10 @@ footer small {
 /* ==============================================
    9. Media Queries
 ===============================================*/
+
+.custom-logo-rule {
+	max-height: 100px;
+}
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
