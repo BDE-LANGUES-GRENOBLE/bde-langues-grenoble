@@ -120,6 +120,7 @@ section {
 .custom-navbar {
 	background-color: #ffffff!important;
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,.09);
+	scroll-behavior: smooth;
 }
 
 .navbar-toggler {
@@ -263,10 +264,10 @@ section {
 }
 
 /* ==============================================
-   5. Marketing
+   5. Parrainage
 ===============================================*/
 
-#marketing p {
+#parrainage p {
 	font-size: 20px;
     font-weight: 300;
     color: #8da2b5;
@@ -274,7 +275,82 @@ section {
     padding: 0px;
 }
 
-#marketing span {
+#parrainage span {
+	font-weight: 400;
+	color: #0095f7;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+}
+
+.content-box {
+	padding: 60px 20px;
+}
+
+/* ==============================================
+   5. WEI
+===============================================*/
+#wei {
+	background-color: #f6f8f9;
+}
+
+#wei p {
+	font-size: 20px;
+    font-weight: 300;
+    color: #8da2b5;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+#wei span {
+	font-weight: 400;
+	color: #0095f7;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+}
+
+.content-box {
+	padding: 60px 20px;
+}
+
+/* ==============================================
+   5. Agenda
+===============================================*/
+
+#agenda p {
+	font-size: 20px;
+    font-weight: 300;
+    color: #8da2b5;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+#agenda span {
+	font-weight: 400;
+	color: #0095f7;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+}
+
+.content-box {
+	padding: 60px 20px;
+}
+
+/* ==============================================
+   5. contact
+===============================================*/
+#contact {
+	background-color: #f6f8f9;
+}
+
+#contact p {
+	font-size: 20px;
+    font-weight: 300;
+    color: #8da2b5;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+#contact span {
 	font-weight: 400;
 	color: #0095f7;
 	text-transform: uppercase;
@@ -359,7 +435,7 @@ section {
 }
 
 /* ==============================================
-   7. Pricing
+   7. adherents
 ===============================================*/
 
 .pricing-box {
