@@ -44,7 +44,9 @@
 	10. Media Queries
 
    //////////////////////////*/
-
+html {
+	scroll-behavior: smooth;
+}
 
 body {
 	font-family: 'Roboto', sans-serif;
