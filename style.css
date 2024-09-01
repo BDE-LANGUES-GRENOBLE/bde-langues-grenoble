@@ -439,6 +439,9 @@ section {
 /* ==============================================
    7. adherents
 ===============================================*/
+#adherents {
+	background-color: #f6f8f9;
+}
 
 .pricing-box {
 	background-color: #ffffff;
@@ -592,10 +595,16 @@ footer i:hover {
 footer small {
 	color: #62656a;
 	float: right;
+	display: flex;
 }
 
 .external-links {
-	color: #0095f7;
+	/* color: #0095f7; */
+	display: flex;
+	align-items: center;
+	margin-bottom: 5px;
+	text-decoration: none;
+	color: inherit;
 }
 
 /* ==============================================
