@@ -436,6 +436,13 @@ section {
 	border-bottom: 1px solid #edf1f2;
 }
 
+#emplacement p {
+	font-size: 20px;
+    font-weight: 300;
+    color: #8da2b5;
+    margin-bottom: 0px;
+    padding: 0px;
+}
 /* ==============================================
    7. adherents
 ===============================================*/
